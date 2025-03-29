@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Foxfy - Nome da Música</title>
+    <link rel="stylesheet" href="PaginaDetalhamento.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+
+</head>
+<body>
+    <aside class="sidebar">
+        <div class="logo">
+            <i class="fa-solid fa-fox-face logo-icon"></i>
+            <h1>Foxfy</h1>
+        </div>
+        
+        <nav>
+            <a href="foxfy-main-page.html" class="nav-item">
+                <i class="fas fa-home"></i>
+                <span>Início</span>
+            </a>
+            <a href="#" class="nav-item">
+                <i class="fas fa-search"></i>
+                <span>Buscar</span>
+            </a>
+            <a href="#" class="nav-item">
+                <i class="fas fa-bookmark"></i>
+                <span>Sua Biblioteca</span>
+            </a>
+        </nav>
+        
+        <div style="margin-top: 30px;">
+            <a href="#" class="nav-item">
+                <i class="fas fa-plus-square"></i>
+                <span>Criar playlist</span>
+            </a>
+            <a href="#" class="nav-item">
+                <i class="fas fa-heart"></i>
+                <span>Músicas Curtidas</span>
+            </a>
+        </div>
+        
+        <div style="margin-top: auto; padding-top: 20px; border-top: 1px solid #282828;">
+            <div class="nav-item">
+                <i class="fas fa-download"></i>
+                <span>Instalar aplicativo</span>
+            </div>
+        </div>
+    </aside>
+    
+    <main class="main-content">
+        <div class="top-bar">
+            <div class="back-forward">
+                <div class="nav-button">
+                    <i class="fas fa-chevron-left"></i>
+                </div>
+                <div class="nav-button">
+                    <i class="fas fa-chevron-right"></i>
+                </div>
+            </div>
+            
+            <div class="user-profile">
+                <img src="/api/placeholder/30/30" alt="User Profile">
+                <span>Usuário</span>
+                <i class="fas fa-caret-down" style="margin-left: 10px;"></i>
+            </div>
+        </div>
+        
+        <div class="playlist-header">
+            <img src="/api/placeholder/232/232" alt="Playlist Cover" class="playlist-cover">
+            <div class="playlist-info">
+                <div class="playlist-meta">PLAYLIST</div>
+                <h1 class="playlist-name">Rock Nacional</h1>
+                <div class="playlist-details">
+                    <span class="playlist-user">Você</span>
+                    <div class="playlist-stats">
+                        <span class="playlist-stat-dot"></span>
+                        <span>15 músicas</span>
+                        <span class="playlist-stat-dot"></span>
+                        <span>58 min 27 seg</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="playlist-actions">
+            <button class="play-button">
+                <i class="fas fa-play"></i>
+            </button>
+            
+            <button class="action-button">
+                <i class="far fa-heart"></i>
+            </button>
+            
+            <button class="action-button">
+                <i class="fas fa-ellipsis-h"></i>
+            </button>
+        </div>
+        
+        <div class="tracks-list">
+            <div class="tracks-header">
+                <div>#</div>
+                <div>TÍTULO</div>
+                <div>ÁLBUM</div>
+                <div>ADICIONADO EM</div>
+                <div>DURAÇÃO</div>
+            </div>
+            
+            <div class="track-item">
+                <div class="track-number">1</div>
+                <div class="track-play"><i class="fas fa-play"></i></div>
+                <div class="track-info">
+                    <img src="/api/placeholder/40/40" alt="Track" class="track-img">
+                    <div class="track-name-artist">
+                        <div class="track-name">Tempo Perdido</div>
+                        <div class="track-artist">Legião Urbana</div>
+                    </div>
+                </div>
+                <div class="track-album">Dois</div>
+                <div class="track-date-added">Há 2 dias</div>
+                <div class="track-duration">5:34</div>
+            </div>
+            
+            <div class="track-item">
+                <div class="track-number">2</div>
+                <div class="track-play"><i class="fas fa-play"></i></div>
+                <div class="track-info">
+                    <img src="/api/placeholder/40/40" alt="Track" class="track-img">
+                    <div class="track-name-artist">
+                        <div class="track-name">Eduardo e Mônica</div>
+                        <div class="track-artist">Legião Urbana</div>
+                    </div>
+                </div>
+                <div class="track-album">Dois</div>
+                <div class="track-date-added">Há 2 dias</div>
+                <div class="track-duration">4:32</div>
+            </div>
+            
+            <div class="track-item">
+                <div class="track-number">3</div>
+                <div class="track-play"><i class="fas fa-play"></i></div>
+                <div class="track-info">
+                    <img src="/api/placeholder/40/40" alt="Track" class="track-img">
+                    <div class="track-name-artist">
+                        <div class="track-name">Pra Começar</div>
+                        <div class="track-artist">Titãs</div>
+                    </div>
+                </div>
+                <div class="track-album">Cabeça Dinossauro</div>
+                <div class="track-date-added">Há 3 dias</div>
+                <div class="track-duration">3:12</div>
+            </div>
+            
+            <div class="track-item">
+                <div class="track-number">4</div>
+                <div class="track-play"><i class="fas fa-play"></i></div>
+                <div class="track-info">
+                    <img src="/api/placeholder/40/40" alt="Track" class="track-img">
+                    <div class="track-name-artist">
+                        <div class="track-name">Epitáfio</div>
+                        <div class="track-artist">Titãs</div>
+                    </div>
+                </div>
+                <div class="track-album">A Melhor Banda de Todos os Tempos</div>
+                <div class="track-date-added">Há 3 dias</div>
+                <div class="track-duration">3:06</div>
+            </div>
+            
+            <div class="track-item">
+                <div class="track-number">5</div>
+                <div class="track-play"><i class="fas fa-play"></i></div>
+                <div class="track-info">
+                    <img src="/api/placeholder/40/40" alt="Track" class="track-img">
+                    <div class="track-name-artist">
+                        <div class="track-name">Como Uma Onda</div>
+                        <div class="track-artist">Lulu Santos</div>
+                    </div>
+                </div>
+                <div class="track-album">Tempos Modernos</div>
+                <div class="track-date-added">Há 4 dias</div>
+                <div class="track-duration">4:15</div>
+            </div>
+            
+            <div class="track-item">
+                <div class="track-number">6</div>
+                <div class="track-play"><i class="fas fa-play"></i></div>
+                <div class="track-info">
+                    <img src="/api/placeholder/40/40" alt="Track" class="track-img">
+                    <div class="track-name-artist">
+                        <div class="track-name">À Sua Maneira</div>
+                        <div class="track-artist">Capital Inicial</div>
+                    </div>
+                </div>
+                <div class="track-album">Acústico MTV</div>
+                <div class="track-date-added">Há 5 dias</div>
+                <div class="track-duration">4:02</div>
+            </div>
+            
+            <div class="track-item">
+                <div class="track-number">7</div>
+                <div class="track-play"><i class="fas fa-play"></i></div>
+                <div class="track-info">
+                    <img src="/api/placeholder/40/40" alt="Track" class="track-img">
+                    <div class="track-name-artist">
+                        <div class="track-name">Anna Júlia</div>
+                        <div class="track-artist">Los Hermanos</div>
+                    </div>
+                </div>
+                <div class="track-album">Los Hermanos</div>
+                <div class="track-date-added">Há 5 dias</div>
+                <div class="track-duration">4:38</div>
+            </div>
+        </div>
+    </main>
+    
+    <div class="player-bar">
+        <div class="now-playing">
+            <img src="/api/placeholder/60/60" alt="Currently Playing" class="now-playing-img">
+            <div class="now-playing-info">
+                <div class="now-playing-title">Tempo Perdido</div>
+                <div class="now-playing-artist">Legião Urbana</div>
+            </div>
+            <i class="far fa-heart" style="margin-left: 15px; color: var(--text-secondary);"></i>
+        </div>
+        
+        <div class="player-controls">
+            <div class="control-buttons">
+                <button class="control-button"><i class="fas fa-random"></i></button>
+                <button class="control-button"><i class="fas fa-step-backward"></i></button>
+                <button class="player-play-button"><i class="fas fa-play" style="color: black;"></i></button>
+                <button class="control-button"><i class="fas fa-step-forward"></i></button>
+                <button class="control-button"><i class="fas fa-redo-alt"></i></button>
+            </div>
+            
+            <div class="progress-bar">
+                <div class="progress-time">2:15</div>
+                <div class="progress-track">
+                    <div class="progress-track-fill"></div>
+                </div>
+                <div class="progress-time">5:34</div>
+            </div>
+        </div>
+        
+        <div class="volume-controls">
+            <i class="fas fa-volume-up volume-icon"></i>
+            <div class="volume-bar">
+                <div class="volume-bar-fill"></div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

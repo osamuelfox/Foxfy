@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Foxfy - Sua música, seu estilo</title>
+    <link rel="stylesheet" href="PaginaPrincipalV2.css">
+
+</head>
+<body>
+    <aside class="sidebar">
+        <div class="logo">
+            <i class="fa-solid fa-fox-face logo-icon"></i>
+            <h1>Foxfy</h1>
+        </div>
+        
+        <nav>
+            <a href="#" class="nav-item">
+                <i class="fas fa-home"></i>
+                <span>Início</span>
+            </a>
+            <a href="#" class="nav-item">
+                <i class="fas fa-search"></i>
+                <span>Buscar</span>
+            </a>
+            <a href="#" class="nav-item">
+                <i class="fas fa-book"></i>
+                <span>Sua Biblioteca</span>
+            </a>
+        </nav>
+        
+        <div style="margin-top: 30px;">
+            <a href="#" class="nav-item">
+                <i class="fas fa-plus-square"></i>
+                <span>Criar playlist</span>
+            </a>
+            <a href="#" class="nav-item">
+                <i class="fas fa-heart"></i>
+                <span>Músicas Curtidas</span>
+            </a>
+        </div>
+        
+        <div style="margin-top: auto; padding-top: 20px; border-top: 1px solid #282828;">
+            <div class="nav-item">
+                <i class="fas fa-download"></i>
+                <span>Instalar aplicativo</span>
+            </div>
+        </div>
+    </aside>
+    
+    <main class="main-content">
+        <div class="top-bar">
+            <div class="search-bar">
+                <i class="fas fa-search" style="color: var(--text-secondary);"></i>
+                <input type="text" placeholder="O que você quer ouvir?">
+            </div>
+            
+            <div class="user-profile">
+                <img src="/api/placeholder/30/30" alt="User Profile">
+                <span>Usuário</span>
+                <i class="fas fa-caret-down" style="margin-left: 10px;"></i>
+            </div>
+        </div>
+        
+        <section>
+            <h2 class="section-title">Suas playlists</h2>
+            <div class="playlists-grid">
+                <div class="playlist-card">
+                    <img src="/api/placeholder/180/180" alt="Playlist" class="playlist-img">
+                    <div class="playlist-title">Minhas Favoritas</div>
+                    <div class="playlist-description">Criado por Você</div>
+                </div>
+                <div class="playlist-card">
+                    <img src="/api/placeholder/180/180" alt="Playlist" class="playlist-img">
+                    <div class="playlist-title">Rock Nacional</div>
+                    <div class="playlist-description">Criado por Você</div>
+                </div>
+                <div class="playlist-card">
+                    <img src="/api/placeholder/180/180" alt="Playlist" class="playlist-img">
+                    <div class="playlist-title">Pop Internacional</div>
+                    <div class="playlist-description">Criado por Você</div>
+                </div>
+                <div class="playlist-card">
+                    <img src="/api/placeholder/180/180" alt="Playlist" class="playlist-img">
+                    <div class="playlist-title">Treino Academia</div>
+                    <div class="playlist-description">Criado por Você</div>
+                </div>
+                <div class="playlist-card">
+                    <img src="/api/placeholder/180/180" alt="Playlist" class="playlist-img">
+                    <div class="playlist-title">Relaxar</div>
+                    <div class="playlist-description">Criado por Você</div>
+                </div>
+                <div class="playlist-card">
+                    <img src="/api/placeholder/180/180" alt="Playlist" class="playlist-img">
+                    <div class="playlist-title">Festa</div>
+                    <div class="playlist-description">Criado por Você</div>
+                </div>
+            </div>
+        </section>
+        
+        <section>
+            <h2 class="section-title">Álbuns populares</h2>
+            <div class="albums-grid">
+                <div class="album-card">
+                    <img src="/api/placeholder/180/180" alt="Album" class="album-img">
+                    <div class="album-title">Hybrid Theory</div>
+                    <div class="album-artist">Linkin Park</div>
+                </div>
+                <div class="album-card">
+                    <img src="/api/placeholder/180/180" alt="Album" class="album-img">
+                    <div class="album-title">Back in Black</div>
+                    <div class="album-artist">AC/DC</div>
+                </div>
+                <div class="album-card">
+                    <img src="/api/placeholder/180/180" alt="Album" class="album-img">
+                    <div class="album-title">Thriller</div>
+                    <div class="album-artist">Michael Jackson</div>
+                </div>
+                <div class="album-card">
+                    <img src="/api/placeholder/180/180" alt="Album" class="album-img">
+                    <div class="album-title">The Dark Side of the Moon</div>
+                    <div class="album-artist">Pink Floyd</div>
+                </div>
+                <div class="album-card">
+                    <img src="/api/placeholder/180/180" alt="Album" class="album-img">
+                    <div class="album-title">Nevermind</div>
+                    <div class="album-artist">Nirvana</div>
+                </div>
+                <div class="album-card">
+                    <img src="/api/placeholder/180/180" alt="Album" class="album-img">
+                    <div class="album-title">Rumours</div>
+                    <div class="album-artist">Fleetwood Mac</div>
+                </div>
+            </div>
+        </section>
+    </main>
+    
+    <div class="player-bar">
+        <div class="now-playing">
+            <img src="/api/placeholder/60/60" alt="Currently Playing" class="now-playing-img">
+            <div class="now-playing-info">
+                <div class="now-playing-title">In The End</div>
+                <div class="now-playing-artist">Linkin Park</div>
+            </div>
+            <i class="far fa-heart" style="margin-left: 15px; color: var(--text-secondary);"></i>
+        </div>
+        
+        <div class="player-controls">
+            <div class="control-buttons">
+                <button class="control-button"><i class="fas fa-random"></i></button>
+                <button class="control-button"><i class="fas fa-step-backward"></i></button>
+                <button class="play-button"><i class="fas fa-play" style="color: black;"></i></button>
+                <button class="control-button"><i class="fas fa-step-forward"></i></button>
+                <button class="control-button"><i class="fas fa-redo-alt"></i></button>
+            </div>
+            
+            <div class="progress-bar">
+                <div class="progress-time">1:47</div>
+                <div class="progress-track">
+                    <div class="progress-track-fill"></div>
+                </div>
+                <div class="progress-time">3:36</div>
+            </div>
+        </div>
+        
+        <div class="volume-controls">
+            <i class="fas fa-volume-up volume-icon"></i>
+            <div class="volume-bar">
+                <div class="volume-bar-fill"></div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

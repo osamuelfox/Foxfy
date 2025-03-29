@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Foxfy - Recuperar Senha</title>
+    <link rel="stylesheet" href="PaginaLogin.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <div class="container">
+        <div class="login-container">
+            <div class="logo-container">
+                <img src="imagem/Logo2.png" alt="Foxfy Logo" class="logo">
+                <h1>Foxfy</h1>
+                <p>Recupere sua senha</p>
+            </div>
+            
+            <form action="recover-password" method="post" class="login-form">
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                
+                <p class="info-text">Enviaremos um link para recuperação de senha para o seu email.</p>
+
+                <br>
+                
+                <button type="submit" class="login-btn">Enviar link de recuperação</button>
+            </form>
+            
+            <div class="links">
+                <a href="PaginaLogin.html">Voltar para o login</a>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/login.js"></script>
+</body>
+</html>
